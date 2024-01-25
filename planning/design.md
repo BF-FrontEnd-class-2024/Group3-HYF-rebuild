@@ -4,4 +4,5 @@
 
 ## Wireframe(s)
 
-![design](/img/home.png)
+![home-design](/img/home.png) ![program-design](/img/program.png)
+![volunteer-design](/img/volunteer.png) ![about-design](/img/about.png)
