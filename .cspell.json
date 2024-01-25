@@ -20,7 +20,8 @@
     "wireframe",
     "Wireframes",
     "Yodiz",
-    "Zepel"
+    "Zepel",
+    "organisation"
   ],
   "ignorePaths": [
     "node_modules/**",
