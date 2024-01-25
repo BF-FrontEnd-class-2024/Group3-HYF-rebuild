@@ -16,8 +16,6 @@
     "Todos",
     "wireframe",
     "organisation"
-
-
   ],
   "ignorePaths": [
     "node_modules/**",
