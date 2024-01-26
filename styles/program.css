@@ -1,1 +1,234 @@
 @import url("./something.css");
+
+/* navbar styling                              */
+
+header {
+  padding: 10px;
+}
+
+header .navigation {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: questrial, sans-serif;
+  color: blue;
+}
+
+.navigation ul {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.navigation li {
+  display: inline;
+  margin: 20px;
+}
+
+.logo {
+  margin-left: 60px;
+}
+
+li button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  color: blue;
+}
+
+/* core program section styling                      */
+
+.core-program {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: questrial, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  font-weight: 350;
+  color: blue;
+}
+
+.core-program h1 {
+  font-size: 30px;
+  text-align: center;
+}
+
+.bold {
+  font-weight: bold;
+  text-align: center;
+  color: blue;
+}
+
+.core-program li {
+  list-style-type: none;
+}
+
+.core-program li::before {
+  content: "\2713";
+}
+
+.size {
+  font-weight: bold;
+  margin-left: 600px;
+}
+
+.size2 {
+  font-weight: bold;
+}
+
+.core-program button {
+  width: 170px;
+  height: 40px;
+  font-weight: bold;
+  font-stretch: ultra-expanded;
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+  border: 2px solid;
+}
+
+.core-program button:hover {
+  background-color: white;
+  color: blue;
+  border: 1px solid blue;
+}
+
+/* "what you will learn" section styling  */
+
+.learn {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: questrial, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  font-weight: 350;
+  color: blue;
+  background-color: white;
+}
+
+.learn h1 {
+  font-size: 25px;
+  text-align: center;
+}
+
+.learn .margin p {
+  margin-bottom: 50px;
+}
+
+.learn2 {
+  background-color: lightgrey;
+}
+
+.btn-curriculum {
+  margin-left: 47%;
+  width: 170px;
+  height: 40px;
+  font-weight: bold;
+  font-stretch: ultra-expanded;
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+  border: 2px solid;
+  margin-bottom: 20px;
+}
+
+.learn2 button:hover {
+  background-color: white;
+  color: blue;
+  border: 1px solid blue;
+}
+
+.icons {
+  background-color: lightgrey;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* icons card styling                            */
+.card figcaption {
+  text-align: center;
+}
+
+.card {
+  width: 350px;
+  border: none;
+  padding: 5px;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.card-title {
+  font-family: questrial, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: blue;
+  font-weight: bold;
+  text-align: center;
+}
+
+.card .icons img {
+  width: 50px;
+  height: auto;
+  margin: 0;
+  align-self: flex-start;
+}
+
+/*              new classes styling              */
+
+.title {
+  font-size: 25px;
+  text-align: center;
+  color: blue;
+  font-family: questrial, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.prog-agenda {
+  display: flex;
+  justify-content: center;
+  font-family: questrial, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: blue;
+}
+
+.prog-agenda h2 {
+  text-align: left;
+  margin-right: 60%;
+}
+
+.agenda {
+  text-align: right;
+  margin-left: 60%;
+  margin-bottom: 50px;
+}
+
+.apply {
+  font-size: small;
+  font-weight: bolder;
+}
+
+.application-process {
+  font-family: questrial, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: blue;
+}
+
+.container-application-process {
+  overflow: hidden;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.left {
+  float: left;
+  width: 50%;
+  margin-right: 10%;
+}
+
+.right {
+  float: right;
+  width: 50%;
+  margin-left: 10%;
+}
