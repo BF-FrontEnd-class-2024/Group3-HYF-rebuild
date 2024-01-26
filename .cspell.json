@@ -21,7 +21,9 @@
     "Wireframes",
     "Yodiz",
     "Zepel",
-    "organisation"
+    "organisation",
+    "partnerimage",
+    "outsideflex"
   ],
   "ignorePaths": [
     "node_modules/**",
