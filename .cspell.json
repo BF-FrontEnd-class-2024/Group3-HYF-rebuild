@@ -21,7 +21,9 @@
     "Wireframes",
     "Yodiz",
     "Zepel",
-    "organisation"
+    "organisation",
+    "anderstalige",
+    "jobseekers"
   ],
   "ignorePaths": [
     "node_modules/**",
