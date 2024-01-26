@@ -24,6 +24,8 @@
     "organisation",
     "anderstalige",
     "jobseekers"
+    "partnerimage",
+    "outsideflex"
   ],
   "ignorePaths": [
     "node_modules/**",

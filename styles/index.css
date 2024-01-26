@@ -1,3 +1,463 @@
 @import url("./program.css");
 @import url("./about.css");
 @import url("./volunteer.css");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap");
+
+/* ------------ universal css ------ */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Poppins, sans-serif;
+}
+
+/* ------- general css ------  */
+
+body {
+  background-color: #ecf0f3;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(255 193 7);
+}
+
+h2 {
+  color: rgb(6 65 174 / 66.1%);
+  font-size: 2rem;
+  padding: 20px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+h3 {
+  padding-bottom: 10px;
+  color: rgb(255 193 7);
+}
+
+.box-shadow {
+  box-shadow: -3px -3px 7px #fff, 3px 3px 5px #ceced1;
+}
+
+.box-inset {
+  box-shadow: -3px -3px 7px #fff, 3px 3px 5px #ceced1, inset -3px -3px 7px #fff,
+    inset 3px 3px 5px #ceced1;
+}
+
+.btn {
+  background: none;
+  border: 1px solid white;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  padding: 6px;
+  margin-left: 5px;
+  color: #31344b;
+  transition: 0.5s;
+}
+
+/* ------------ header ----------- */
+
+/* ------------ navbar ---------- --  */
+
+.navbar {
+  max-width: 80%;
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  background-color: #ecf0f3;
+}
+
+.logo {
+  padding: 0.5rem;
+}
+
+.logo img {
+  width: 5rem;
+}
+
+.nav-list {
+  margin: auto 1px;
+}
+
+.nav-list ul li {
+  display: inline-flex;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  font-weight: 400;
+  padding: 10px 12px;
+  position: relative;
+  transition: all 0.3s ease;
+  box-shadow: -3px -3px 7px #fff, 3px 3px 5px #ceced1;
+}
+
+.nav-list ul li a {
+  color: #31344b;
+}
+
+.nav-list ul li a:hover::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  box-shadow: inset -3px -3px 7px #fff, inset 3px 3px 5px #ceced1;
+}
+
+.nav-list ul li a:hover {
+  color: green;
+}
+
+#menu-bar {
+  display: none;
+}
+
+.menu {
+  font-size: 0.9rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding: 20px;
+  cursor: pointer;
+  display: none;
+}
+
+/* ---- title ----- */
+
+.main-title {
+  max-width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-name {
+  padding: 0%;
+  color: rgb(6 65 174 / 66.1%);
+  font-weight: 500;
+  font-size: 4rem;
+  text-transform: uppercase;
+}
+
+.slogan {
+  font-size: 1.2rem;
+  width: 30rem;
+  color: rgb(255 193 7);
+  font-weight: 300;
+  margin-bottom: 1.5rem;
+  margin-left: 5rem;
+  text-align: center;
+}
+
+.title-img {
+  width: 80rem;
+  height: 35rem;
+  margin: auto;
+}
+
+.btn-apply {
+  border: 1px solid cornflowerblue;
+}
+
+.btn-apply:hover {
+  background-color: cornflowerblue;
+}
+
+.btn-donate {
+  border: 1px solid rgb(255 193 7);
+}
+
+.btn-donate:hover {
+  background-color: rgb(255 193 7);
+}
+
+/* ---- header css end ----  */
+
+/* Info */
+
+.info-section {
+  max-width: 90%;
+  margin: auto;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.8rem;
+}
+
+.info-text {
+  padding: 0.1rem 2rem;
+  width: 100%;
+}
+
+.info-text p {
+  margin-bottom: 30px;
+}
+
+b {
+  color: rgb(255 193 7);
+}
+
+.image-info {
+  width: 100%;
+}
+
+.image-info img {
+  width: 100%;
+}
+
+/* statistics  */
+
+.impact {
+  max-width: 90%;
+  margin: auto;
+  margin-top: 10px;
+  height: auto;
+}
+
+.impact-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 5px;
+  height: 100%;
+  align-content: space-between;
+  justify-items: stretch;
+  padding: 10px;
+}
+
+.card-impact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.card-impact h3 {
+  font-size: 3rem;
+}
+
+.card-impact p {
+  text-align: center;
+}
+
+/* ----- Our Stories ---- */
+
+.stories {
+  width: 90%;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.story-outsideflex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.story-card {
+  margin: 1rem;
+  padding: 1rem;
+  text-align: center;
+}
+
+.profile-img {
+  width: 23rem;
+}
+
+.profile-profession {
+  color: darkslategrey;
+  font-weight: bold;
+}
+
+.card-title {
+  font-size: 1.8rem;
+}
+
+.card-info {
+  padding: 1rem 0.1rem;
+  color: gray;
+  font-size: 15px;
+}
+
+.partners {
+  width: 90%;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.partnerimage {
+  width: 80px;
+  height: 80px;
+}
+
+.title-partners {
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.partners-logo {
+  padding: 1.8rem;
+}
+
+.btn-partner {
+  border: 1px solid rgb(3 115 132 / 54%);
+}
+
+.btn-partner:hover {
+  background-color: rgb(3 115 132 / 54%);
+}
+
+/* alumni info  */
+
+.alumni-info {
+  font-size: small;
+  justify-content: center;
+  line-height: 1.2rem;
+  padding: 10px;
+  color: gray;
+}
+
+.alumni-img {
+  margin: 2rem;
+  height: 15rem;
+  width: 12rem;
+  border-radius: 50%;
+}
+
+.read-more {
+  color: gray;
+}
+
+.position {
+  color: gray;
+}
+
+/* news latter  */
+
+.news-latter-section {
+  width: 90%;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+.news-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sign-up {
+  margin-left: 10rem;
+  margin-bottom: 2rem;
+  padding: 8px;
+  width: 8rem;
+  align-items: center;
+}
+
+.sign-up:hover {
+  background-color: rgb(3 115 132 / 54%);
+}
+
+/* --------- form ------- */
+
+.form-map {
+  width: 90%;
+  margin: auto;
+}
+
+.location {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.form-info {
+  background-color: #ecf0f3;
+  padding: 20px;
+  width: 550px;
+  border-radius: 8px;
+}
+
+.form-info p {
+  padding-bottom: 10px;
+  font-family: Poppins, sans-serif;
+}
+
+label {
+  padding: 3px;
+  box-shadow: -3px -3px 7px #fff, 3px 3px 5px #ceced1;
+}
+
+input,
+textarea {
+  width: 450px;
+  padding: 8px;
+  margin-top: 10px;
+  border: none;
+  background: none;
+  box-shadow: -3px -3px 7px #fff, 3px 3px 5px #ceced1, inset -3px -3px 7px #fff,
+    inset 3px 3px 5px #ceced1;
+}
+
+.btn-submit {
+  background-color: rgb(221 237 249);
+  color: black;
+  cursor: pointer;
+  border: 1px solid rgb(93 160 235);
+  width: 80px;
+  transition: 0.3s;
+}
+
+.btn-submit:hover {
+  background-color: rgb(93 160 235);
+}
+
+.map iframe {
+  border: none;
+  margin: 5px;
+  width: 620px;
+}
+
+.map p {
+  padding: 20px;
+}
+
+.arrow {
+  width: 2rem;
+  height: 2rem;
+}
+
+.footer {
+  margin-top: 1rem;
+}
+
+.head-footer {
+  padding-top: 2rem;
+  justify-content: center;
+  text-align: center;
+}
+
+.footer-address {
+  margin-top: 10px;
+  color: gray;
+  font-family: "Space Mono", monospace;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+}
+
+.social-media a img {
+  padding-top: 5px;
+  margin: 10px;
+}
+
+.icon {
+  width: 30px;
+}
