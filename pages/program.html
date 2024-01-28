@@ -3,26 +3,56 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/styles/program.css" />
-    <title>Document</title>
+    <link rel="stylesheet" href="../styles/program.css" />
+    <link rel="icon" href="../img/hyfbe.webp" />
+    <title>THE PROGRAM</title>
   </head>
 
   <body>
+    <!-------------- Header Section  ------------->
+
     <header>
       <nav class="navigation">
         <div>
-          <img src="/img/hyfbe.webp" alt="hack your future logo" class="logo" />
+          <a href="../index.html"
+            ><img
+              src="../img/hyfbe.webp"
+              alt="hack your future logo"
+              class="logo"
+          /></a>
         </div>
         <ul>
-          <li><button type="submit">THE PROGRAM</button></li>
-          <li><button type="submit">VOLUNTEER</button></li>
-          <li><button type="submit">ABOUT</button></li>
+          <li class="dropdown">
+            <a href="./program.html" class="nav-a">THE PROGRAM</a>
+            <ul class="dropdown-menu">
+              <li><a href="#core"> FULL STACK CORE PROGRAM</a></li>
+              <li><a href="#front-end"> 5 MONTH FRONT-END DEVELOPMENT</a></li>
+              <li><a href="#back-end"> BACK-END DEVELOPMENT PROGRAM</a></li>
+            </ul>
+          </li>
+          <li><a href="../pages/volunteer.html" class="nav-a">VOLUNTEER</a></li>
+          <li><a href="../pages/about.html" class="nav-a">ABOUT</a></li>
+          <li><a href="../pages/about.html" class="nav-a">RECRUIT</a></li>
+          <li><a href="../pages/supportus.html" class="nav-a">BLOG</a></li>
+          <li>
+            <a href="../pages/supportus.html" class="nav-a">SUPPORT US</a>
+          </li>
+          <li>
+            <a href="../pages/supportus.html" class="nav-a"
+              >WHY BECOME A PARTNER?</a
+            >
+          </li>
+          <li><a href="../pages/faq.html" class="nav-a">FAQ</a></li>
+          <li><a href="../pages/faq.html" class="nav-a">TEAM</a></li>
         </ul>
       </nav>
       <br />
     </header>
+
+    <!------------ Core program section ------------>
+
     <section class="core-program">
-      <article>
+      <article id="core">
         <h1>CORE PROGRAM</h1>
         <p class="bold">—</p>
         <br />
@@ -30,8 +60,9 @@
         We offer an 8-month full-stack web development program once a year
         <br />
         in both Brussels and Antwerp. Our program is free. We teach refugees,
-        newcomers and "anderstalige" <br />
-        jobseekers with limited access to further education or the job market in
+        newcomers and allophone <br />
+        job seekers with limited access to further education or the job market
+        in
         <br />
         Belgium. The course is open to anyone staying in Belgium. <br />
         A technical background is not necessary if you want to apply to <br />
@@ -48,7 +79,7 @@
           </li>
           <li>You speak English at an intermediate level.</li>
           <li>
-            You have to spend at least 30 hours per week on Sunday clases,
+            You have to spend at least 30 hours per week on Sunday classes,
             homework and self-learning.
           </li>
           <li>
@@ -66,6 +97,8 @@
       </article>
     </section>
 
+    <!------------ what you will learn section  ------------>
+
     <section class="learn">
       <article>
         <h1>WHAT YOU WILL LEARN</h1>
@@ -81,25 +114,27 @@
           responsible for your own learning. Together, we will discover
           state-of-the-art tools and frameworks, <br />
           industry best-practices, and experience working collaboratively in a
-          modern development team. ​
+          modern development team.
         </p>
       </article>
     </section>
+
+    <!---- Different programming languages icons cards section ---->
 
     <section class="learn2">
       <article class="icons">
         <div class="card">
           <img src="/img/html.webp" alt="HTML logo" />
-          <p>HTML</p>
+          <p class="card-title">HTML</p>
           <br />
           <p>
-            Ensure the proper formating of text and images so that your browser
+            Ensure the proper formatting of text and images so that your browser
             may display them as they are intended to look.
           </p>
         </div>
         <div class="card">
           <img src="/img/js.webp" alt="JavaScript logo" />
-          <p>JAVASCRIPT</p>
+          <p class="card-title">JAVASCRIPT</p>
           <br />
           <p>
             A programming language commonly used in web development to add
@@ -108,7 +143,7 @@
         </div>
         <div class="card">
           <img src="/img/css.webp" alt="CSS logo" />
-          <p>CSS</p>
+          <p class="card-title">CSS</p>
           <br />
           <p>
             Learn how to make you webpages standout by creating beautiful
@@ -143,9 +178,10 @@
           </p>
         </div>
       </article>
-      <button type="submit" class="btn-curriculum">Our curriculum</button>
     </section>
     <div class="title">
+      <!----------- New classes agenda section  ------------>
+
       <h4>NEW CLASSES</h4>
       <p class="bold">—</p>
     </div>
@@ -176,6 +212,8 @@
       </article>
     </section>
     <div class="title">
+      <!-------------- Application process section ------------->
+
       <h4>THE APPLICATION PROCESS</h4>
       <p class="apply">
         Applying to our program consists of four important steps.
@@ -231,5 +269,118 @@
         </div>
       </article>
     </section>
+
+    <!------------- Different choices program section ----------------->
+
+    <section class="container-programs">
+      <article id="front-end" class="program-options">
+        <h2 class="blue">5 MONTHS FRONT-END DEVELOPMENT PROGRAM</h2>
+        <p>
+          HackYourFuture, in collaboration with Bruxelles Formation, is
+          launching a <br />
+          5-month full-time Front-end Development training that includes an
+          <br />
+          internship opportunity upon completion. <br />
+          You will learn how to create a responsive website using HTML to
+          structure <br />
+          content, CSS to handle visual style, and JavaScript to develop
+          interactive <br />
+          experiences. You will also learn React, a “must-have” skill for
+          front-end
+          <br />
+          developers. Before you apply, please check the list below to ensure
+          that you meet the <br />
+          eligibility criteria:
+        </p>
+        <ul>
+          <li>You're + 18 years old</li>
+          <li>You are registered with Actiris, VDAB, or Le Forem</li>
+          <li>You speak English at an intermediate level.</li>
+          <li>
+            You're extremely motivated to start a career in web development.
+          </li>
+        </ul>
+        <h3 class="blue">The new class registration will start in 2024</h3>
+        <button type="submit" class="apply">APPLY</button>
+        <br />
+        <br />
+        <br />
+        <h2 id="back-end" class="blue">2 MONTH BACK-END DEVELOPMENT PROGRAM</h2>
+        <p>
+          HackYourFuture, in collaboration with Bruxelles Formation, is
+          organising 2-month full-<br />time Back-end Development training that
+          includes an internship opportunity upon <br />
+          completion. In this training you will learn Node.js, one of the most
+          popular server-side platforms. The <br />
+          training covers all the basics of Node.js and its architectural
+          concepts to help you <br />
+          create your own web applications using Node.js. <br />
+          Before you apply, please ensure that you meet the following
+          conditions:
+        </p>
+        <ul>
+          <li>You're + 18 years old</li>
+          <li>You are registered with Actiris, VDAB, or Le Forem</li>
+          <li>You speak English at an intermediate level.</li>
+          <li>
+            You're extremely motivated to start a career in web development.
+          </li>
+          <li>
+            You should have a working understanding of Javascript, HTML and CSS
+          </li>
+        </ul>
+        <h3 class="blue">
+          The new class registration will start on 2024, May, 08
+        </h3>
+      </article>
+    </section>
+
+    <!------------ Navigation cards section  ------------------->
+
+    <section>
+      <div class="nav-card">
+        <a href="" class="card2"
+          >SUPPORT <br /><br />
+          HackYourFuture is a non-profit organization and our course is entirely
+          free for the students. Support our work.
+        </a>
+        <a href="" class="card2"
+          >VOLUNTEER <br /><br />
+          Our coach and mentors are professional web-developers with a passion
+          for technology and a wish to share their knowledge and skill.</a
+        >
+        <a href="" class="card2"
+          >PARTNERSHIP <br /><br />
+          Does your company want to support diversity and inclusion in the tech
+          industry? Consider becoming a partner and find out more here.
+        </a>
+      </div>
+    </section>
+
+    <!------------ Footer section  ---------------->
+
+    <footer>
+      <div class="address-mail">
+        <p class="address">
+          Avenue de Tervueren 142 <br />
+          1150 Bruxelles
+        </p>
+        <a href="mailto:info@hyfbe.be" class="mail">info@hyfbe.be</a>
+      </div>
+      <div class="social-media">
+        <a href="https://www.facebook.com/HackYFutureBE/">
+          <img src="../img/facebook.png" alt="Facebook logo"
+        /></a>
+        <a href="https://www.linkedin.com/HackYFutureBelgium/">
+          <img src="../img/linkedin.png" alt="Linkedin logo"
+        /></a>
+        <a href="https://www.github.com/HackYFutureBelgium/">
+          <img src="../img/github.png" alt="GitHub logo"
+        /></a>
+        <a href="https://www.instagram.com/HackYFutureBE/">
+          <img src="../img/instagram.png" alt="Instagram logo"
+        /></a>
+      </div>
+    </footer>
   </body>
 </html>
