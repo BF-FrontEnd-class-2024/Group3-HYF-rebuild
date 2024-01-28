@@ -1,1 +1,347 @@
 @import url("./something.css");
+@import url("https://fonts.googleapis.com/css2?family=Coda&family=Poppins:wght@100;400;500&family=Space+Mono&display=swap");
+
+/* header */
+
+.home-header {
+  display: flex;
+  width: 100%;
+  height: 150px;
+  min-height: 150px;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.container-header {
+  -webkit-box-align: center;
+  align-items: center;
+  box-shadow: none;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  -webkit-box-flex: 0;
+  height: 100%;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+  max-height: none;
+  max-width: 1280px;
+  width: 100%;
+  z-index: 0;
+  position: static;
+  background: none 0% 0% / auto transparent;
+  flex: 0 1 100%;
+  margin: auto;
+}
+
+.container-logo {
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  height: 100%;
+}
+
+.container-logo a {
+  height: 100%;
+}
+
+.container-logo img {
+  width: auto;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* navbar */
+
+.home-nav {
+  display: flex;
+  -webkit-box-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-flex: 1;
+  flex-grow: 1;
+  flex-direction: row;
+}
+
+.home-nav ul {
+  display: inline-flex;
+  -webkit-box-align: center;
+  align-items: center;
+  height: 100%;
+  color: grey;
+  font-size: 12px;
+  line-height: 160%;
+  text-transform: uppercase;
+  padding: 10px 20px;
+}
+
+.home-nav li {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  width: auto;
+  padding: 15px;
+}
+
+.apply {
+  display: inline-flex;
+  font-size: 12px;
+  line-height: 160%;
+  text-decoration: none;
+  background-color: blue;
+  color: white;
+  font-weight: 600;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  box-sizing: border-box;
+  padding: 10px 20px;
+  cursor: pointer;
+  text-transform: uppercase;
+  -webkit-box-align: center;
+  align-items: center;
+  font-family: "Work Sans", sans-serif;
+}
+
+.home-nav li a {
+  font-family: inherit;
+  font-size: 16px;
+}
+
+/* .home-nav li a:hover {
+  display: inline-flex;
+  font-size: 12px;
+  line-height: 160%;
+  text-decoration: none;
+  background-color: rgb(7, 19, 255);
+  color: white;
+  font-weight: 600;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  box-sizing: border-box;
+  padding: 10px 20px;
+  cursor: pointer;
+  text-transform: uppercase;
+  -webkit-box-align: center;
+  align-items: center;
+  font-family: "Work Sans", sans-serif;
+} */
+
+.flexible {
+  margin: 30px;
+  padding-top: 60px;
+  padding-left: 60px;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  color: navy;
+  background-color: lightgray;
+  border-radius: 8px;
+}
+
+.flexible span {
+  padding-left: 10px;
+  padding-right: 10px;
+  justify-content: center;
+  align-items: center;
+  display: inline;
+  text-align: center;
+}
+
+.flexible2 {
+  margin: 0;
+  padding-top: 60px;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  color: navy;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.flexible4 {
+  margin: 0;
+  padding-top: 60px;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  color: navy;
+  padding-left: 60px;
+}
+
+.flexible4 h3 {
+  font-size: 30px;
+}
+
+.history {
+  padding-left: 30px;
+  padding-right: 10px;
+  width: 45%;
+  padding-top: 60px;
+}
+
+.history img {
+  width: 90%;
+}
+
+.tile {
+  box-sizing: border-box;
+  width: calc(25% - 20px);
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.tile4 {
+  box-sizing: border-box;
+  width: calc(40% - 20px);
+  margin: 50px;
+  padding: 100px;
+  border-radius: 0;
+  overflow: hidden;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 60px;
+  background-color: lightgray;
+}
+
+.tile4 h4 {
+  font-size: 23px;
+}
+
+.tile4 p {
+  font-size: 18px;
+  width: 90%;
+}
+
+.tile2 {
+  box-sizing: border-box;
+  width: calc(33% - 30px);
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #494eb0;
+  color: white;
+  text-align: center;
+}
+
+.tile2 p {
+  font-size: 16px;
+  width: 80%;
+}
+
+.tile3 {
+  box-sizing: border-box;
+  width: calc(25% - 20px);
+  margin: 10px;
+  padding: 10px;
+  padding-left: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  display: inline;
+  text-align: center;
+  background-color: lightgray;
+}
+
+.tile3img1 {
+  width: 50%;
+  justify-content: center;
+  height: auto;
+  border-radius: 50%;
+}
+
+.tile3img {
+  width: 10%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.tile img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.description {
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* footer css */
+.footer {
+  padding: 50px 20px;
+  position: absolute;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  bottom: auto;
+  width: 100%;
+}
+
+.foothead {
+  color: navy;
+  font-size: 20px;
+  padding-bottom: 10px;
+  font-weight: 700;
+  max-width: none;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.footadd {
+  text-align: center;
+  color: navy;
+  font-size: 16px;
+  max-width: none;
+  line-height: 160%;
+  margin: 0;
+  padding-top: 10px;
+  font-family: "Space Mono", sans-serif;
+  font-weight: 300;
+  margin-bottom: 40px;
+  bottom: auto;
+}
+
+.footlogocontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: auto;
+}
+
+.footlogocontainer img {
+  width: 10%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* media query */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.mainpurpose {
+  line-height: normal;
+  text-align: center;
+  color: navy;
+  width: 80%;
+  padding-left: 180px;
+  font-size: 60px;
+}

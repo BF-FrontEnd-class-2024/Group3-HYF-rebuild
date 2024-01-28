@@ -21,7 +21,17 @@
     "Wireframes",
     "Yodiz",
     "Zepel",
-    "organisation"
+    "organisation",
+    "footadd",
+    "foothead",
+    "Meirlaen",
+    "Cartella",
+    "Lizhen",
+    "Kroemer",
+    "Tervueren",
+    "testid",
+    "lktjag",
+    "LQIP"
   ],
   "ignorePaths": [
     "node_modules/**",
