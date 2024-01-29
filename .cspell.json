@@ -25,7 +25,18 @@
     "anderstalige",
     "jobseekers",
     "partnerimage",
-    "outsideflex"
+    "outsideflex",
+    "footadd",
+    "foothead",
+    "Meirlaen",
+    "Cartella",
+    "Lizhen",
+    "Kroemer",
+    "Tervueren",
+    "testid",
+    "lktjag",
+    "LQIP"
+
   ],
   "ignorePaths": [
     "node_modules/**",
