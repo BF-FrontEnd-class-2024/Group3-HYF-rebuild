@@ -22,6 +22,10 @@
     "Yodiz",
     "Zepel",
     "organisation",
+    "anderstalige",
+    "jobseekers",
+    "partnerimage",
+    "outsideflex",
     "footadd",
     "foothead",
     "Meirlaen",
@@ -32,6 +36,7 @@
     "testid",
     "lktjag",
     "LQIP"
+
   ],
   "ignorePaths": [
     "node_modules/**",

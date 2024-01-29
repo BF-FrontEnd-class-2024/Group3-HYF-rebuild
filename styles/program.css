@@ -1,1 +1,373 @@
 @import url("./something.css");
+
+/* navbar styling                              */
+
+header {
+  padding: 10px;
+}
+
+header .navigation {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: sans-serif;
+  color: #1d2396;
+}
+
+.navigation ul {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.navigation li {
+  display: inline;
+  margin: 20px;
+}
+
+.logo {
+  margin-left: 60px;
+}
+
+.nav-a {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: lighter;
+  font-size: 14px;
+  text-decoration: none;
+  background-color: transparent;
+  cursor: pointer;
+  color: #1d2396;
+}
+
+/* core program section styling                      */
+
+.core-program {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: 350;
+  color: #1d2396;
+  line-height: 2;
+}
+
+.core-program h1 {
+  font-size: 30px;
+  text-align: center;
+}
+
+.bold {
+  font-weight: bold;
+  text-align: center;
+  color: #1d2396;
+}
+
+.core-program li {
+  list-style-type: none;
+}
+
+.core-program li::before {
+  content: "\2713";
+}
+
+.size {
+  font-weight: bold;
+  margin-left: 600px;
+  color: #1d2396;
+}
+
+.size2 {
+  font-weight: bold;
+}
+
+/* programs sections button styling */
+
+.container-programs button {
+  width: 170px;
+  height: 40px;
+  font-weight: bold;
+  font-stretch: ultra-expanded;
+  background-color: #1d2396;
+  color: white;
+  border-radius: 5px;
+  border: 2px solid #1d2396;
+}
+
+/* programs sections button styling */
+
+.core-program button {
+  width: 170px;
+  height: 40px;
+  font-weight: bold;
+  font-stretch: ultra-expanded;
+  background-color: #1d2396;
+  color: white;
+  border-radius: 5px;
+  border: 2px solid;
+}
+
+.core-program button:hover {
+  background-color: white;
+  color: #1d2396;
+  border: 1px solid #1d2396;
+}
+
+/* "what you will learn" section styling  */
+
+.learn {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: 350;
+  color: #1d2396;
+  background-color: #eff1f1;
+  margin-top: 3%;
+  line-height: 2;
+}
+
+.learn h1 {
+  font-size: 25px;
+  text-align: center;
+}
+
+.learn .margin p {
+  margin-bottom: 50px;
+}
+
+.learn2 {
+  background-color: #eff1f1;
+  font-family: sans-serif;
+}
+
+.icons {
+  background-color: #eff1f1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: #1d2396;
+}
+
+/* what you will learn section's icons card styling                            */
+
+.card {
+  width: 350px;
+  border: none;
+  padding: 5px;
+  margin: 5px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  line-height: 1.2;
+}
+
+.card-title {
+  font-family: sans-serif;
+  color: #1d2396;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* social media logo sizing */
+
+.social-media img {
+  height: 25px;
+}
+
+/*  card logo sizing  */
+
+.card .icons img {
+  width: 50px;
+  height: auto;
+  margin: 0;
+  align-self: flex-start;
+}
+
+/*    agenda for  new classes section styling              */
+
+.title {
+  font-size: 25px;
+  text-align: center;
+  color: #1d2396;
+  font-family: sans-serif;
+}
+
+/* new class agenda styling */
+
+.prog-agenda {
+  display: flex;
+  justify-content: center;
+  font-family: sans-serif;
+  line-height: 1.2;
+  color: #1d2396;
+}
+
+.prog-agenda h2 {
+  text-align: left;
+  margin-right: 60%;
+}
+
+.agenda {
+  text-align: right;
+  margin-left: 60%;
+  margin-bottom: 50px;
+}
+
+/*  application process section styling  */
+
+.apply {
+  font-size: small;
+  font-weight: bolder;
+}
+
+.application-process {
+  font-family: sans-serif;
+  color: #1d2396;
+  line-height: 2;
+}
+
+.container-application-process {
+  overflow: hidden;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.left {
+  float: left;
+  width: 50%;
+  margin-right: 10%;
+}
+
+.right {
+  float: right;
+  width: 50%;
+  margin-left: 10%;
+}
+
+/* different program section styling */
+
+.container-programs {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eff1f1;
+  font-family: sans-serif;
+  color: black;
+  text-align: left;
+  line-height: 2;
+}
+
+.program-options li {
+  margin-top: 10px;
+  list-style-type: none;
+  color: black;
+}
+
+.program-options li::before {
+  content: "\2713";
+}
+
+.program-options button:hover {
+  background-color: white;
+  color: #1d2396;
+  border: 1px solid #1d2396;
+}
+
+.blue {
+  color: #1d2396;
+}
+
+/*  navigation cards styling  */
+
+.nav-card {
+  display: flex;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.card2 {
+  flex: 1;
+  padding: 30px;
+  margin: 30px;
+  background-color: #2b21b4a9;
+  text-align: center;
+  text-decoration: none;
+  color: #f0f0f0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  border-radius: 13px;
+  transition: transform 0.4s ease;
+}
+
+.card2:hover {
+  transform: scale(1.05);
+}
+
+/*  address - email styling  */
+
+.address-mail {
+  padding-top: 25px;
+  text-align: center;
+}
+
+.address {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.mail {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue";
+  color: black;
+}
+
+/* social media logo spacing */
+
+.social-media {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+
+/* dropdown menu styling  */
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #f5f3f3e3;
+  padding: 5px;
+  box-shadow: 0 4px 8px lightgrey;
+  max-height: 140px;
+  border-radius: 15px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu li {
+  display: block;
+  text-decoration: none;
+}
+
+.dropdown-menu li a {
+  text-decoration: none;
+}
+
+.dropdown-menu li:hover a {
+  color: black;
+}
+
+html {
+  scroll-behavior: smooth;
+}
